@@ -4,7 +4,20 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<!-- 
+  <h3 class="archive__subtitle">xxx{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+-->
+
+<div style="margin-bottom: 10px;">Ask questions and learn about Miki's professional experience.</div>
+
+  <button class="custom-button">Tell me more about yourself</button>
+  <button class="custom-button">What languages do you know?</button>
+  <button class="custom-button">How many apps have you built?</button>
+  <button class="custom-button">Do you code mobile apps?</button>
+
+  <iframe src="https://www.youtennis.com" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+
+  <input type="text" id="search" class="search-input" placeholder="Enter your question about Miki..." />
 
 {% if paginator %}
   {% assign posts = paginator.posts %}

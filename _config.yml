@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "You Hoo!"
+title                    : "aboutmiki.com"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tech With Mik!"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mick"
-  avatar           : /assets/images/pic.png"
-  bio              : "I have a delivper."
-  location         : "Jacksonville"
+  name             : "Miki"
+  avatar           : "/assets/images/pic.png"
+  bio              : "I am a full-stack software engineer specializing in AI using python, langchain and pinecone."
+  location         : "Jacksonville, FL"
   email            :
   links:
     - label: "Email"

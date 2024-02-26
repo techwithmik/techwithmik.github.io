@@ -87,6 +87,8 @@ select {
   box-shadow: $box-shadow;
 }
 
+
+
 .input-mini {
   width: 60px;
 }
@@ -194,6 +196,16 @@ input[type="hidden"] {
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
   margin-left: 10px;
+}
+
+inputx {
+  display: inline-block;
+  width: 100%;
+  padding: 0.25em;
+  margin-bottom: 0.5em;
+  color: $text-color;
+  background-color: $background-color;
+
 }
 
 /*

@@ -461,3 +461,22 @@
 		display: inline-block;
 	}
 }
+
+
+.custom-button {
+  display: inline-block;
+  margin-bottom: 0.5rem; /* Same as mb-2 */
+  padding: 0.5rem 1.25rem; /* Same as px-5 py-2 */
+  font-size: 0.875rem; /* Same as text-sm */
+  line-height: 1.25; /* Same as leading-tight */
+  text-align: left;
+  border: 1px solid #cbd5e1; /* Same as border-slate-400 */
+  background-color: #F3D057; /* Same as bg-lime-200 */
+  color: #1f2937; /* Same as text-zinc-800 */
+  border-radius: 0.5rem; /* Same as rounded-lg */
+  transition: background-color 0.2s, border-color 0.2s; /* For hover effects */
+}
+.custom-button:hover {
+  background-color: #cbd5e1; /* Same as hover:bg-slate-300 */
+  border-color: transparent;
+}
