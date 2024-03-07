@@ -3,18 +3,20 @@
    ========================================================================== */
 
 .archive {
-  margin-top: 1em;
+  margin-top: 0em;
   margin-bottom: 2em;
+  background-color: #f1f5f9;
+  padding: 15px;
 
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    padding-rightx: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    padding-rightx: $right-sidebar-width;
   }
 }
 

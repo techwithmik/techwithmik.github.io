@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Resume"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+  #- title: "Resume"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #- title: "About"
+  #  url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Contact"
-    url: /year-archive/
+    url: "mailto:techwithmik@gmail.com"
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
